@@ -1,0 +1,61 @@
+# .gitignore
+.env
+
+# Data
+data/raw/jobs_raw_full.csv  # Exclude full dataset
+data/processed/jobs_clean.csv  # Exclude full processed data
+!data/raw/jobs_raw_sample.csv  # Include sample
+!data/processed/jobs_clean_sample.csv  # Include sample
+
+
+# Data
+data/raw/
+data/processed/
+!data/processed/jobs_clean_sample.csv
+
+# Environments
+venv/
+.env/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+scr/preprocess_2.py
+
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/03_Clustering_Analysis_2.ipynb
