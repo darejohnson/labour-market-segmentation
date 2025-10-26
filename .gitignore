@@ -4,14 +4,9 @@
 # Data
 data/raw/jobs_raw_full.csv  # Exclude full dataset
 data/processed/jobs_clean.csv  # Exclude full processed data
-!data/raw/jobs_raw_sample.csv  # Include sample
-!data/processed/jobs_clean_sample.csv  # Include sample
 
-
-# Data
-data/raw/
-data/processed/
-!data/processed/jobs_clean_sample.csv
+!data\raw\jobs_raw_sample.csv # Include sample
+!data\processed\jobs_clean_sample.csv # Include sample
 
 # Environments
 venv/
@@ -59,3 +54,4 @@ scr/preprocess_2.py
 # Jupyter
 .ipynb_checkpoints/
 notebooks/03_Clustering_Analysis_2.ipynb
+
